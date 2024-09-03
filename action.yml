@@ -91,7 +91,7 @@ outputs:
 runs:
   using: docker
     #image: "docker://quay.io/terraform-docs/gh-actions:1.2.0"
-  image: "docker://ghcr.io/timothyclarke/tf-docs-gh-actions:1.2.0-subdir"
+  image: "docker://ghcr.io/timothyclarke/tf-docs-gh-actions:1.2.1-pr5"
   env:
     INPUT_WORKING_DIR: ${{ inputs.working-dir }}
     INPUT_ATLANTIS_FILE: ${{ inputs.atlantis-file }}
